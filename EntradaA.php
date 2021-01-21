@@ -1,3 +1,5 @@
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,13 +25,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="estilos2.css">
 
-<body class="container" style="background: rgb(2,0,36);
+<body class="container align-center" style="background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(9,9,121,1) 100%);">
     <div class="container">
         <div class="container form-row"
             style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 50px; width: 1150px;">
         
-            <form action="EntradaA.html">
+            <form action="EntradaA.php">
                 <button style="margin: 3px;" type="submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">
                     <span></span>  
                     <i class="fas fa-home"></i></i>Home</button>
@@ -60,13 +62,19 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(
                     <i class="fas fa-user"></i>Mi perfil</button>
             </form>
                 
-            <form action="">
+            <form action="Base/Salir.php">
                 <button style="margin: 3px;" type="submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">
                     <span></span>  
                     <i class="fas fa-sign-in-alt"></i></i>Cerrar sesion</button>
             </form>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br>
+        <div class="container d-flex justify-content-center align-items-center rounded form-group"
+            style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 500px; width: 650px;">
+            <h1>Bienvenido</h1>
+            <div>
+            <img src="imagenes/logo_login.png" style="width: 310px; height: 200px;">
+            </div>
     </div>
 </body>
 

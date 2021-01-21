@@ -12,7 +12,7 @@ session_start();
 
     if($nr == 1)
     {
-        header("location: ../CrearUsuario.html");
+        header("location: ../EntradaA.php");
         $_SESSION['username'] = $nombre;
         
     }else if ($nr ==0)
