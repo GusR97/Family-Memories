@@ -30,31 +30,37 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(
 
 <div class="container">
     <div class="container d-flex justify-content-center rounded"
-    style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 500px; width: 650px;">
-        <form action="Base/Buscar.php" method="get">
+    style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 500px; width: 700px;">
+        <form>
         <h1>Lista de Usuarios</h1>
             <br>
             <table class="table table-secondary table-striped" id="tb1">
+            <thead>
                 <tr>
                     <td>Nombre</td>
                     <td>A.Paterno</td>
                     <td>A.Materno</td>
                     <td>Usuario</td>
+                    <td>Tipo</td>
+                    <td>Modificar</td>
+                    <td>Eliminar</td>
                 </tr>
-
+                </thead>
                 <?php
 
                 require 'Base/conexion.php';
-                $qu = "SELECT nombre, ape_paterno, ape_materno, usuario, tipo FROM usuarios";
+                $qu = "SELECT id, nombre, ape_paterno, ape_materno, usuario, tipo FROM usuarios";
                 $resulta = mysqli_query($conexion, $qu);
                 while($row=mysqli_fetch_array($resulta)){
-
                 ?>
                 <tr>
                     <td><?php echo $row['nombre'] ?></td>
                     <td><?php echo $row['ape_paterno'] ?></td>
                     <td><?php echo $row['ape_materno'] ?></td>
                     <td><?php echo $row['usuario'] ?></td>
+                    <td><?php echo $row['tipo'] ?></td>
+                    <td><a href="Base/Modificar.php?id=<?php echo $row['id']?>" class="btn btn-secondary">Modificar</a></td>
+                    <td><a href="Base/Eliminar.php?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar</a></td>
                 </tr>
                 <?php
             }
@@ -63,6 +69,5 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(
         </form>
     </div>
 </div>
-    
 </body>
 </html>
