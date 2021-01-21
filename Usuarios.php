@@ -29,6 +29,46 @@ require_once 'Base/conexion.php';
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(9,9,121,1) 100%);">
 
 <div class="container">
+<div class="container form-row"
+            style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 50px; width: 1150px;">
+        
+            <form action="EntradaU.php">
+                <button style="margin: 3px;" type="submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">
+                    <span></span>  
+                    <i class="fas fa-home"></i></i>Home</button>
+            </form>
+            
+            <form>
+                <button style="margin: 3px;" type=submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">
+                    <span></span>  
+                    <i class="fas fa-video"></i></i>Videos</button>
+            </form>
+            
+            <form action="Usuarios.php">
+                <button style="margin: 3px;" type=submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">
+                    <span></span>  
+                    <i class="fas fa-user"></i></i>Usuarios</button>
+            </form>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <form action="">
+                <button style="margin: 3px;" type="submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">
+                    <span></span>  
+                    <i class="fas fa-user"></i>Mi perfil</button>
+            </form>
+                
+            <form action="Base/Salir.php">
+                <button style="margin: 3px;" type="submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">
+                    <span></span>  
+                    <i class="fas fa-sign-in-alt"></i></i>Cerrar sesion</button>
+            </form>
+        </div>
+        <br>
     <div class="container d-flex justify-content-center rounded"
     style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 500px; width: 450px;">
         <form action="Base/Buscar.php" method="get">

@@ -13,7 +13,7 @@ session_start();
     if($nr == 1)
     {
         header("location: ../EntradaA.php");
-        $_SESSION['username'] = $nombre;
+        $_SESSION['usuario'] = $usuario;
         
     }else if ($nr ==0)
     {
@@ -24,8 +24,8 @@ session_start();
     $n = mysqli_num_rows($q);
     if($n == 1)
     {
-        header("location: ../Ususarios.php");
-        $_SESSION['username'] = $nombre;
+        header("location: ../EntradaU.php");
+        $_SESSION['usuario'] = $usuario;
     }
  
 ?>
