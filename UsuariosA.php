@@ -57,11 +57,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-            <form action="">
-                <button style="margin: 3px;" type="submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">
-                    <span></span>  
-                    <i class="fas fa-user"></i>Mi perfil</button>
-            </form>
                 
             <form action="Base/Salir.php">
                 <button style="margin: 3px;" type="submit"  class="btn btn-lg boton3 btn-sm rounded-pill shadow ">

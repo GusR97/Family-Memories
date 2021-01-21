@@ -12,6 +12,12 @@
         $usuario = $row['usuario'];
         $pass = $row['contraseña'];
         $tipo = $row['tipo'];
+
+        $_SESSION['nombre']=$nombre;
+        $_SESSION['paterno']=$paterno;
+        $_SESSION['materno']=$materno;
+        $_SESSION['usuario']=$usuario;
+        $_SESSION['tipo']=$tipo;
     }
 }
 if(isset($_POST['update'])){
