@@ -12,5 +12,5 @@
     if(!$result){
         die("fallo");
     }
-    header("Location:../Usuarios.php");
+    header("Location:../UsuariosA.php");
 ?>

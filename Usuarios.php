@@ -30,16 +30,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(
 
 <div class="container">
     <div class="container d-flex justify-content-center rounded"
-    style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 500px; width: 650px;">
+    style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 500px; width: 450px;">
         <form action="Base/Buscar.php" method="get">
         <h1>Lista de Usuarios</h1>
             <br>
             <table class="table table-secondary table-striped" id="tb1">
                 <tr>
-                    <td>Nombre</td>
-                    <td>A.Paterno</td>
-                    <td>A.Materno</td>
-                    <td>Usuario</td>
+                <td><b>Nombre</b></td>
+                    <td><b>A.Paterno</b></td>
+                    <td><b>A.Materno</b></td>
+                    <td><b>Usuario</b></td>
                 </tr>
 
                 <?php

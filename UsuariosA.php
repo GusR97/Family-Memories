@@ -31,19 +31,26 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(
 <div class="container">
     <div class="container d-flex justify-content-center rounded"
     style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 500px; width: 700px;">
-        <form>
-        <h1>Lista de Usuarios</h1>
+        <form action="CrearUsuario.html">
+            <div class="form-row align-items-center">
+            <h1>Lista de Usuarios</h1>
+            <button type="submit" class="btn btn-lg boton3 btn-sm rounded-pill shadow align-rigth" name="create">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>Crear Usario</button>
+            </div>
             <br>
             <table class="table table-secondary table-striped" id="tb1">
             <thead>
                 <tr>
-                    <td>Nombre</td>
-                    <td>A.Paterno</td>
-                    <td>A.Materno</td>
-                    <td>Usuario</td>
-                    <td>Tipo</td>
-                    <td>Modificar</td>
-                    <td>Eliminar</td>
+                    <td><b>Nombre</b></td>
+                    <td><b>A.Paterno</b></td>
+                    <td><b>A.Materno</b></td>
+                    <td><b>Usuario</b></td>
+                    <td><b>Tipo</b></td>
+                    <td><b>Modificar</b></td>
+                    <td><b>Eliminar</b></td>
                 </tr>
                 </thead>
                 <?php
