@@ -32,13 +32,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(
     <div class="container d-flex justify-content-center rounded"
     style="background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(255,255,255,.9) 45%, rgba(255,255,255,.9) 100%); height: 500px; width: 650px;">
         <form action="Base/Buscar.php" method="get">
-            <h1>Buscar Usuarios</h1>
-            <div class="form-inline justify-content-center align-items-center">
-            <label for="nombre">Nombre:</label>
-            <input placeholder="Busca el Nombre"  class="form-control rounded-pill shadow"
-            style="border: 1.5px solid rgba(9,9,121,1); height: 40px; width: 175px;" id="nombre"type="text"> 
-            <input type="submit" class="btn btn-lg boton3 btn-sm rounded-pill shadow " value="Buscar" style="height: 40px;">       
-            </div>  
+        <h1>Lista de Usuarios</h1>
             <br>
             <table class="table table-secondary table-striped" id="tb1">
                 <tr>

@@ -24,7 +24,7 @@ session_start();
     $n = mysqli_num_rows($q);
     if($n == 1)
     {
-        header("location: ../BuscaUsu.php");
+        header("location: ../Ususarios.php");
         $_SESSION['username'] = $nombre;
     }
  
